@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://diuvqbq807otx"]
+
+[ext_resource type="PackedScene" uid="uid://bjrww8sux8te3" path="res://scenes/room.tscn" id="1_fltsc"]
+
+[node name="IntroRoom" type="Node3D" unique_id=293691748]
+
+[node name="room" parent="." unique_id=436153996 instance=ExtResource("1_fltsc")]

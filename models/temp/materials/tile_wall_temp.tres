@@ -1,6 +1,19 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://c4g4vtksagman"]
 
 [ext_resource type="Texture2D" uid="uid://dwfrd0xab2day" path="res://models/temp/textures/Small_stylized_tile_1_Base_color.jpg" id="1_og0ef"]
+[ext_resource type="Texture2D" uid="uid://bwbqqn5g7oxf0" path="res://models/temp/textures/Small_stylized_tile_1_Ambient_occlusion.jpg" id="2_rpoks"]
+[ext_resource type="Texture2D" uid="uid://e8t78j5yhod3" path="res://models/temp/textures/Small_stylized_tile_1_Height.jpg" id="3_3hr6r"]
+[ext_resource type="Texture2D" uid="uid://biykoqkpca612" path="res://models/temp/textures/Small_stylized_tile_1_Normal_OpenGL.jpg" id="4_opr8a"]
+[ext_resource type="Texture2D" uid="uid://bkysapko7jm34" path="res://models/temp/textures/Small_stylized_tile_1_Roughness.jpg" id="5_7nbh8"]
 
 [resource]
 albedo_texture = ExtResource("1_og0ef")
+roughness_texture = ExtResource("5_7nbh8")
+normal_enabled = true
+normal_texture = ExtResource("4_opr8a")
+ao_enabled = true
+ao_light_affect = 0.5
+ao_texture = ExtResource("2_rpoks")
+heightmap_enabled = true
+heightmap_scale = 0.55
+heightmap_texture = ExtResource("3_3hr6r")

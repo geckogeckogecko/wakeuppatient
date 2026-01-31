@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://bjrww8sux8te3"]
-
-[ext_resource type="PackedScene" uid="uid://8dwpioa5mb2r" path="res://models/temp/room.glb" id="1_3calf"]
-[ext_resource type="Material" uid="uid://c4g4vtksagman" path="res://models/temp/materials/tile_wall_temp.tres" id="2_b51kl"]
-
-[node name="room" unique_id=553495558 instance=ExtResource("1_3calf")]
-
-[node name="Cube_001" parent="." index="1" unique_id=368246630]
-material_override = ExtResource("2_b51kl")

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dkgdi00ed3coc"]
+
+[ext_resource type="Script" uid="uid://buqa18bpaj5o7" path="res://scenes/scripts/player_restrained.gd" id="1_0ndth"]
+[ext_resource type="PackedScene" uid="uid://b5f7yiquey8wk" path="res://models/temp/bed.glb" id="2_oslxo"]
+
+[node name="PlayerRestrained" type="Node3D" unique_id=627118231]
+script = ExtResource("1_0ndth")
+
+[node name="Bed" parent="." unique_id=36282772 instance=ExtResource("2_oslxo")]
+transform = Transform3D(0.42, 0, 0, 0, 0.42, 0, 0, 0, 0.42, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=539998837]
+transform = Transform3D(-3.5188453e-08, 0.5932503, 0.8050181, 2.593179e-08, 0.8050181, -0.59325033, -1, 1.7763568e-15, -4.3711385e-08, 0.7753759, 0.87681895, 0)
+
+[node name="RayCast3D" type="RayCast3D" parent="Camera3D" unique_id=1021892051]
+target_position = Vector3(0, 0, -10)
