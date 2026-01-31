@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c4g4vtksagman"]
+
+[ext_resource type="Texture2D" uid="uid://dwfrd0xab2day" path="res://models/temp/textures/Small_stylized_tile_1_Base_color.jpg" id="1_og0ef"]
+
+[resource]
+albedo_texture = ExtResource("1_og0ef")
